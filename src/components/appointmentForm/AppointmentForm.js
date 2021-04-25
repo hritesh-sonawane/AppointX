@@ -10,16 +10,14 @@ export const AppointmentForm = ({
   setDate,
   time,
   setTime,
-  handleSubmit
+  handleSubmit,
 }) => {
   const getTodayString = () => {
     const [month, day, year] = new Date()
-      .toLocaleDateString("en-US")
+      .toLocaleDateString("en-IN")
       .split("/");
     return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
   };
 
-  return (
-    AppointmentForm
-  );
+  return AppointmentForm;
 };

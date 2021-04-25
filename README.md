@@ -2,7 +2,7 @@
 
 App that manages contacts and appointments
 
-Modules been incorporated:
+Modules being incorporated:
 
 - JSX
 - Components (Stateless/Stateful)
