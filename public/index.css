@@ -1,6 +1,7 @@
 #root {
   padding: 30px;
   font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 
 nav > a {
@@ -8,7 +9,8 @@ nav > a {
   font-weight: normal;
   font-size: 14px;
   color: #000000;
-  margin-right: 30.5px;
+  margin: 0 auto;
+  padding: 10px;
   text-decoration-line: none;
 }
 
@@ -48,7 +50,7 @@ input[type="submit"] {
   border: none;
   outline: none;
   padding: 10px 0;
-  width: 100%;
+  width: 60%;
   font-family: "Open Sans", sans-serif;
   margin-top: 10px;
   margin-bottom: 0px;
@@ -62,7 +64,7 @@ select {
   border-radius: 4px;
   padding: 7px 9.5px 9px 9.5px;
   outline: none;
-  width: 100%;
+  width: 60%;
   margin-bottom: 10px;
   box-sizing: border-box;
 }

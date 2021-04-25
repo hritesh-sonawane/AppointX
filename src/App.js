@@ -37,6 +37,7 @@ function App() {
 
   return (
     <>
+      <h1 style={{ color: "#03a8d8" }}>AppointX</h1>
       <nav>
         <NavLink to={ROUTES.CONTACTS} activeClassName="active">
           Contacts

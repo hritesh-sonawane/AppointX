@@ -29,9 +29,9 @@ export const ContactForm = ({
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
           required
-          // regex is for IN phone numbers
-          pattern="/^[0-9]\d{2,4}-\d{6,8}$/"
-          placeholder="Contact Phone (#####-#####)"
+          // regex is for US phone numbers
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          placeholder="Contact Phone Format: 123-456-7890"
         />
       </label>
       <br />
